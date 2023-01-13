@@ -2,8 +2,9 @@
 
 ## **Notebooks**
 
-- [Naive 4 bit Winternitz](naive_4_bit_winternitz.ipynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **can** be forged)
-- [Secure 4 bit Winternitz](secure_4_bit_winternitz.ipynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **cannot** be forged)
+- [Naive 4 bit Winternitz Signatures](naive_4_bit_winternitz.ipynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **can** be forged)
+- [Secure 4 bit Winternitz Signatures](secure_4_bit_winternitz.ipynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **cannot** be forged)
+- [256 bit Winternitz Signatures](256_bit_winternitz.ipynb): Example implementation of Winternitz one-time signatures for 256 bit message hashes
 
 ### **Interface Images**
 
@@ -16,7 +17,8 @@
 <!-- Shorter Signatures for Hash-Based Signature Schemes -->
 
 - [A Certified Digital Signature by Ralph C. Merkle](https://link.springer.com/content/pdf/10.1007/0-387-34805-0_21.pdf): Contains implementation of Winternitz one-time signatures. <!-- located at 5. The Winternitz Improvement-->
-- [W-OTS+ Paper](https://eprint.iacr.org/2017/965.pdf)
+- [Updated W-OTS](https://eprint.iacr.org/2011/191.pdf):
+- [W-OTS+](https://eprint.iacr.org/2017/965.pdf): Shorter Signatures for Hash-Based Signature Schemes
 
 <!-- TODO: LOOK INTO THESE PAPERS -->
 <!-- Johannes Buchmann, Erik Dahmen, and Andreas H ̈ulsing. XMSS - a prac-
