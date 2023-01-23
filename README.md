@@ -2,8 +2,8 @@
 
 ## **Notebooks**
 
-- [Naive 4 bit Winternitz Signatures](naive_4_bit_winternitz.ipynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **can** be forged)
-- [Secure 4 bit Winternitz Signatures](secure_4_bit_winternitz.ipynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **cannot** be forged)
+- [Naive 4 bit Winternitz Signatures](4_bit_winternitz.ipynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **can** be forged)
+- [Secure 4 bit Winternitz Signatures](4_bit_winternitz_secure.iynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **cannot** be forged)
 - [256 bit Winternitz Signatures](256_bit_winternitz.ipynb): Example implementation of Winternitz one-time signatures for 256 bit message hashes
 
 ### **Interface Images**
