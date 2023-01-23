@@ -17,8 +17,9 @@
 <!-- Shorter Signatures for Hash-Based Signature Schemes -->
 
 - [A Certified Digital Signature by Ralph C. Merkle](https://link.springer.com/content/pdf/10.1007/0-387-34805-0_21.pdf): Contains implementation of Winternitz one-time signatures. <!-- located at 5. The Winternitz Improvement-->
-- [Updated W-OTS](https://eprint.iacr.org/2011/191.pdf):
+- [Updated W-OTS](https://eprint.iacr.org/2011/191.pdf): Winternitz one-time signatures using a parameterized family of functions
 - [W-OTS+](https://eprint.iacr.org/2017/965.pdf): Shorter Signatures for Hash-Based Signature Schemes
+- [Hash-Based Signatures Part I: One-Time Signatures (OTS)](https://cryptoservices.github.io/quantum/2015/12/04/one-time-signatures.html): Extremely helpful blog post by David Wong on the topic
 
 <!-- TODO: LOOK INTO THESE PAPERS -->
 <!-- Johannes Buchmann, Erik Dahmen, and Andreas H ̈ulsing. XMSS - a prac-
