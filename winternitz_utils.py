@@ -1,10 +1,5 @@
 from hashlib import sha3_256
 
-# TYPE DEFINITIONS
-PrivateKey = list[bytes]
-PublicKey = list[bytes]
-Signature = list[bytes]
-
 
 def hash_chain(n: int, x: bytes) -> bytes:
     """Hashes a value n times using SHA3-256, h(h(h(...h(x)...)))"""
@@ -36,7 +31,7 @@ def binary_to_int(x: list[int]) -> int:
     return sum([x[i] * (2 ** (len(x) - i - 1)) for i in range(len(x))])
 
 
-def split_into_int_chunks(x: bytes, n_bits: int) -> list[int]:
+def split_into_n_chunks(x: bytes, n_bits: int) -> list[int]:
     """Splits a byte string into `n` chunks of equal length (`n_bits` bits each)"""
     assert n_bits > 0, "Cannot split into chunks of size 0 or negative"
     assert 8 * len(x) % n_bits == 0, "Cannot split evenly into chunks of size `n_bits`"
