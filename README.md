@@ -6,6 +6,10 @@
 - [Secure 4 bit Winternitz Signatures](4_bit_winternitz_secure.iynb): Simple example implementation of Winternitz one-time signatures for 4 bit numbers (signatures **cannot** be forged)
 - [256 bit Winternitz Signatures](256_bit_winternitz.ipynb): Example implementation of Winternitz one-time signatures for 256 bit message hashes
 
+## **Benchmarks**
+
+- [Hash Chain Benchmarks](hash_chain_benchmark.md): Benchmark of hash chains using different hash functions
+
 ### **Interface Images**
 
 - [Generate Keypair](images/GENERATE_KEYS_interface.png)
